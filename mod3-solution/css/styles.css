@@ -1,0 +1,98 @@
+/********** Base styles **********/
+<!--  From Alexieiev -->
+body {
+  background-color: #ffffff;
+  font-family: Arial;
+}
+p {
+  color: black;
+  clear: both;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #cccc00;
+  margin-bottom: 10px;
+}
+
+.navbar-brand a {
+  padding: 0px;
+}
+.navbar-brand h1 { /* Food, LCC */
+  color: #800080;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 0.9;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #3333cc;
+}
+ /*  .navbar-collapse {
+  background-color: #ffe6ff;
+  border: 1px solid black;
+  padding: 0;
+ }   */
+
+/* END HEADER */
+
+p.menu { /* Titre : Our Menu */
+	text-align: center;
+  font-size: 2.2em; color: red;
+  font-weight: bold;
+}
+
+/* Les trois textes */
+
+.rowTitle { /* Titre du Texte */
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #206020;
+}
+.row { /* Encadrement du texte */
+  background-color: #cccccc;
+  margin: 20px;
+  position: relative;
+}
+.row p { /* Disposition du texte dans l'encadrement */
+  margin: 5px 10px 10px 10px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+/* FIN des trois textes */
+
+
+#header-nav > div {
+  border: 3px solid black;
+}
+#header-nav > #collapsable-nav {
+  padding-top: 0px;
+  padding-bottom: 0px; 
+  border-top: 0;
+}
+.dishes-menu {
+  background-color: #ffeeff;
+}
+.dishes-menu-choice { /* Chicken, Beef, Sushi */
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+hr { /* Ligne de séparation */
+  height: 2px;
+  background-color: black;
+  margin: 0;
+}
+/*  
+@media (max-width: 991px) and (min-width: 768px) {
+ .hidden-sm {
+     display: none!important;
+ }  */
+}
